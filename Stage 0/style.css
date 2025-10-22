@@ -284,16 +284,19 @@ section li {
 
 @media (max-width: 768px) {
   article, main {
-    padding: 0.5rem; 
-    margin: 1rem;
+    padding: 2rem; 
+    margin: 2%;
     width: 100%;
   }
 
   .navbar {
-    align-items: center;
-    gap: 2.12rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    gap: 3.12rem;
     width: 100%;
-    /* padding: 1.8rem 6rem; */
+    padding: 1rem;
 
   }
 
