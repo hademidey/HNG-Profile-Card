@@ -283,14 +283,15 @@ section li {
 }
 
 @media (max-width: 768px) {
-  /* ma {
-    /* padding: 1.5rem; */
-    /* margin: 1rem; */
-  } */
+  main {
+    padding: 0.5rem; 
+    margin: 1rem;
+  }
 
-  nav {
+  .navbar {
     align-items: center;
-    gap: 0.12rem;
+    gap: 1.12rem;
+    width: 100%;
   }
 
   input, textarea, button {
