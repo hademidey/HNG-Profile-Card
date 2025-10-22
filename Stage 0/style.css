@@ -289,7 +289,7 @@ section li {
 
   nav {
     align-items: center;
-    gap: 1rem;
+    gap: 0.12rem;
   }
 
   input, textarea, button {
