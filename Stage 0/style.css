@@ -283,10 +283,10 @@ section li {
 }
 
 @media (max-width: 768px) {
-  main {
-    padding: 1.5rem;
-    margin: 1rem;
-  }
+  /* ma {
+    /* padding: 1.5rem; */
+    /* margin: 1rem; */
+  } */
 
   nav {
     align-items: center;
