@@ -18,7 +18,7 @@ body {
 article {
   background-color: #14285b;
   border-radius: 15px;
-  width: 100%;
+  width: 95%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -27,9 +27,10 @@ article {
   gap: 1rem;
   padding: 2rem;
 }
+
 main {
   flex: 1;
-  width: 100%;
+  width: 95%;
   max-width: 600px;
   margin: 2rem auto;
   background-color: #14285b;
@@ -43,14 +44,15 @@ header h1 {
   font-size: 1.8rem;
   color: #3b82f6;
 }
+
 .navbar {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-
 }
+
 nav a {
   color: #fff;
   text-decoration: none;
@@ -69,12 +71,12 @@ nav a:hover {
   padding: 5px;
   background: linear-gradient(135deg, #3b82f6, #131131);
 }
+
 h1.about {
   color: #00e5ff;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  text-align: center  ;
- 
+  text-align: center;
 }
 
 form {
@@ -93,8 +95,8 @@ label {
   margin-bottom: 0.3rem;
 }
 
-
-input, textarea {
+input,
+textarea {
   padding: 0.75rem;
   border: none;
   border-radius: 8px;
@@ -102,7 +104,8 @@ input, textarea {
   outline: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 2px solid #00bcd4;
   background: #f0f8ff;
   color: #000;
@@ -243,7 +246,6 @@ section h2 {
   border-left: 4px solid #1ee1d3;
   padding-left: 10px;
   text-transform: capitalize;
-
 }
 
 ul {
@@ -283,8 +285,9 @@ section li {
 }
 
 @media (max-width: 768px) {
-  article, main {
-    padding: 2rem; 
+  article,
+  main {
+    padding: 2rem;
     margin: 2%;
     width: 100%;
   }
@@ -297,10 +300,11 @@ section li {
     gap: 3.12rem;
     width: 100%;
     padding: 1rem;
-
   }
 
-  input, textarea, button {
+  input,
+  textarea,
+  button {
     font-size: 0.95rem;
   }
 }
