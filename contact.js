@@ -19,10 +19,10 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   }
 
   // Email validation
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailPattern.test(email.value.trim())) {
-    document.getElementById("error-email").textContent = "Enter a valid email.";
-    valid = false;
+   if (email.value.trim() === "") {
+    errors.email = "Email is required.";
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+    errors.email = "Please enter a valid email (e.g., name@example.com).";
   }
 
   // Subject validation
